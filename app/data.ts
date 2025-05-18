@@ -35,19 +35,19 @@ export const WEB_DESCRIPTION =
 export const FOOTER_COPYRIGHT = '© 2025 Duong Nhat Cuong.'
 export const FOOTER_LINK = 'https://github.com/cuogne/'
 
-export const NAME = 'Duong Nhat Cuong'
+export const NAME = 'Cừn'
 export const JOB_TITLE = 'Sinh Vien'
 export const DESCRIPTION =
-  'I am a passionate designer and developer with a focus on creating beautiful and functional user interfaces. I have experience in design engineering, front-end development, and product design. I love to explore the intersection of design and technology, and I am always looking for new challenges to tackle.'
+  'Sinh vien ga nhat HCMUS dang let qua nam 2 !!!'
 
 export const PROJECTS: Project[] = [
   {
-    name: 'Motion Primitives Pro',
+    name: 'Flappy Bird',
     description:
-      'Advanced components and templates to craft beautiful websites.',
-    link: 'https://pro.motion-primitives.com/',
+      'A game i built using pygame',
+    link: 'https://github.com/cuogne/FlappyBird',
     video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4',
+      'https://upload.wikimedia.org/wikipedia/vi/0/0a/Flappy_Bird_icon.png',
     id: 'project1',
   },
   {
@@ -62,11 +62,11 @@ export const PROJECTS: Project[] = [
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
-    company: 'Reglazed Studio',
-    title: 'CEO',
-    start: '2024',
+    company: 'HCMUS - University of Science',
+    title: 'Student',
+    start: '2023',
     end: 'Present',
-    link: 'https://ibelick.com',
+    link: 'https://hcmus.edu.vn/',
     id: 'work1',
   },
   {
@@ -94,11 +94,25 @@ export const BLOG_POSTS: BlogPost[] = [
     link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
     uid: 'blog-1',
   },
+  {
+    title: 'Loi chao dau tien',
+    description: 'Xin chao cac ban',
+    link: '/blog/my-first-blog',
+    uid: 'blog-2',
+  },
 ]
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     label: 'GitHub',
-    link: 'https://github.com/github',
+    link: 'https://github.com/cuogne',
+  },
+  {
+    label: 'Facebook',
+    link: 'https://www.facebook.com/cuoq.nc/',
+  },
+  {
+    label: 'Instagram',
+    link: 'https://www.instagram.com/_cuogne/',
   },
 ]
